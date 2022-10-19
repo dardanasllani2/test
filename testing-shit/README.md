@@ -1,0 +1,1 @@
+See usage instructions at https://www.npmjs.com/package/@sogody/experiment-framework

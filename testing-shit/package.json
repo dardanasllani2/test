@@ -1,0 +1,25 @@
+{
+  "name": "testing-shit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "dev": "gulp development",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "up": "yarn add @sogody/eslint-config@npm:@sogody/experiment-framework@^1.0.0 @sogody/experiment-framework@^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.8",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0"
+  },
+  "author": "Sogody",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "npm:preact@10.5.14",
+    "@sogody/experiment-framework": "^1.0.0",
+    "@sogody/eslint-config": "npm:@sogody/experiment-framework@^1.0.0"
+  }
+}

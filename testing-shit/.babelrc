@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "h",
+        "pragmaFrag": "DocumentFragment",
+      }
+    ],
+    "@babel/plugin-proposal-nullish-coalescing-operator"
+  ],
+  "presets": [
+    "@babel/preset-env"
+  ]
+}

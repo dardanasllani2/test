@@ -1,0 +1,24 @@
+{
+  "targetUrl": "www.sogody.com",
+  "entryPoints": [
+    "./src/js/v1/index.jsx",
+    "./src/js/v2/index.jsx"
+  ],
+  "runtime": {
+    "globalObject": "sgd",
+    "includeEmergencyBrake": true,
+    "bundlePreact": false
+  },
+  "development": {
+    "terser": {},
+    "runtime": {
+      "bundlePreact": false
+    }
+  },
+  "production": {
+    "terser": {},
+    "runtime": {
+      "bundlePreact": false
+    }
+  }
+}
